@@ -13,7 +13,7 @@
     margin-top: 2vw;
     width: 18vw;
     height: 5vw;
-    background: url("../img/Logo.png") no-repeat center / cover;
+    background: url("/assets/img/logo.png") no-repeat center / cover;
     filter: blur(0.5px);
 }
 .contacto__info{
