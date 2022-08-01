@@ -38,8 +38,7 @@
 .barradebusqueda__boton:hover{
     cursor: pointer;
 }
-.izquierda__menu--image{
-    background: url("https://github.com/Cesareus/ecommerce-alurageek/blob/master/assets/img/logo.png") no-repeat center / cover;
+.izquierda__menu--image{    
     width: 35%;
     height: 5vw;
     filter: blur(0.5px);      
