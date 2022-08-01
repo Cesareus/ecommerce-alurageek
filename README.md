@@ -19,8 +19,8 @@ password: cesar123
 
 -----
 ## Github
-![HtmlCssJs](https://raw.githubusercontent.com/gonadr09/Juego-Ahorcado-Alura/master/img/954554.png)
+![HtmlCssJs](https://raw.githubusercontent.com/Cesareus/ecommerce-alurageek/master/assets/img/954554.png)
 
 -----
 ##  Página
-https://gonadr09.github.io/ecommerce-alurageek/index.html
+https://cesareus.github.io/ecommerce-alurageek/
