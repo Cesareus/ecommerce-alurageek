@@ -19,18 +19,18 @@ const crearProducto =(nombre, categoria, precio, url, descripcion) =>{
 
 const eliminarProductos = (id) =>{
   console.log("Eliminar a ---->",id);
-  return fetch(`https://fake-server-json-alura.herokuapp.com/productos"/${id}`,{
+  return fetch(`https://fake-server-json-alura.herokuapp.com/productos/${id}`,{
     method:"DELETE"
   })
 }
 
 const detalleProducto = (id) =>{
-  return fetch(`https://fake-server-json-alura.herokuapp.com/productos"/${id}`).then(respuesta => 
+  return fetch(`https://fake-server-json-alura.herokuapp.com/productos/${id}`).then(respuesta => 
   respuesta.json()
   );
 }
 const actualizarProducto = ( id, nombre, categoria, precio, url, descripcion) =>{
-  return fetch(`https://fake-server-json-alura.herokuapp.com/productos"/${id}`,{
+  return fetch(`https://fake-server-json-alura.herokuapp.com/productos/${id}`,{
   method: "PUT",
   headers: {
     "Content-Type": "application/json"
