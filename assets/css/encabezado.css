@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 .izquierda__menu--image{
-    background: url("/assets/img/logo.png") no-repeat center / cover;
+    background: url("../img/logo.png") no-repeat center / cover;
     width: 35%;
     height: 5vw;
     filter: blur(0.5px);      
